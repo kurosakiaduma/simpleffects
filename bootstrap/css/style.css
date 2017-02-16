@@ -2,11 +2,20 @@
     display: none;
 }
 
-.clickable {
+#show {
     cursor: pointer;
     color: #0088cc;
 }
 
-.clickable:hover {
+#show:hover {
+    text-decoration: underline;
+}
+
+#hide {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+#hide:hover {
     text-decoration: underline;
 }
